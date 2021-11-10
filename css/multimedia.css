@@ -717,6 +717,10 @@ footer ul li a {
             bottom: 10px;
             width: 400px;
         }
+        .logoPrincipal {
+            height: 6rem;
+            width: 6rem;
+        }
         h1 {
             font-size: 300%;
         }
@@ -821,7 +825,7 @@ footer ul li a {
         .datoPie {
             width: 80%;
             margin-right: 5px;
-            margin-left: 4px;
+            margin-left: 10%;
             text-align: center;
             margin-bottom: 10px;
         }
@@ -829,15 +833,18 @@ footer ul li a {
             margin-top: 20px;
             margin-bottom: 0px;
             text-align: center;
-            margin-left: 4px;
+            margin-left: 10%;
             margin-right: 15px;
         }
         .tituloInfo {
-            margin-right: 20px;
+            margin-right: 50px;
             margin-top: 20px;
         }
         .emailPie {
             display: none;
+        }
+        .asideRedes {
+            margin-left: 32%;
         }
         .asideRedes img{
             height: 40px;
@@ -887,6 +894,9 @@ footer ul li a {
             left: 200px;
             bottom: 20px;
             width: 600px;
+        }
+        h1 {
+            font-size: 300%;
         }
         .articuloInicioUno {
             margin-left: 20%;
@@ -965,6 +975,18 @@ footer ul li a {
         }
         .asideForo, .asideForo thead tr th {
             margin-bottom: 10px;
+        }
+        .ultimosArticulosUno img {
+            margin-left: 10%;
+        }
+        .ultimosArticulosDos img {
+            margin-left: 10%;
+        }
+        .ultimosArticulosUno p {
+            width: 110%;
+        }
+        .ultimosArticulosDos p {
+            width: 110%;
         }
         footer{
             display: flex;
