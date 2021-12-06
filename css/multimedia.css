@@ -142,7 +142,8 @@ h3 {
     text-shadow: 1px 1px black;
 }
 .tituloDivisor {
-    margin-left: 48rem;
+    margin-left: 40%;
+    margin-right: 39%;
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 5px 20px 5px 20px;
@@ -189,7 +190,9 @@ ul ul li {
 }
 ul li:hover ul {
     display: block;
-    margin-left: 400%;
+    width: 300px;
+    margin-left: 350%;
+    margin-top: -10px;
 }
 table tbody img {
     width: 80px;
@@ -257,13 +260,11 @@ p a {
 }
 /* Productos */
 .contenedorCursos {
-    display: inline-block;
     align-items: center;
     text-align: center;
 }
 .contenedorCursos p {
     width: 50%;
-    height: 100%;
     text-align: center;
     margin-left: 25%;
 }
@@ -292,6 +293,7 @@ p a {
 }
 .botonesCompartirProd {
     display: flex;
+    margin-left: 80px;
 }
 .asideIndex {
     display: inline-block;
@@ -445,6 +447,10 @@ article img {
 .botonRegistro {
     width: 9rem;
     height: 3rem;
+}
+.formularioRegistro label textarea {
+    width: 600px;
+    height: 200px;
 }
 /* Nosotros */
 .imagenNosotros{
@@ -775,7 +781,8 @@ footer ul li a {
             text-align: center;
         }
         .tituloDivisor {
-            margin-left: 190px;
+            width: 50%;
+            margin-left: 25%;
             text-align: center;
             margin-top: 20px;
             margin-bottom: 10px;
@@ -816,7 +823,7 @@ footer ul li a {
         .BotonCompartir {
             margin-left: 20%;
         }
-        footer{
+        footer {
             display: block;
             padding-top: 1%;
             text-align: center;
@@ -850,6 +857,35 @@ footer ul li a {
             height: 40px;
             width: 40px;
         }
+        .imagenContacto {
+            height: 100px;
+            width: 400px;
+            margin: 0px;
+        }
+        .tablaContacto tbody tr td img{
+            width: 50px;
+            height: 50px    ;
+        }
+        .tablaContacto {
+            width:100%;
+            margin-left: 0px;
+        }
+        .tablaContacto thead {
+            display: none;
+        }
+        .tablaContacto tbody td {
+            display: block;
+            text-align:center;
+        }
+        .imagenCelular  {
+            display: none;
+         }
+         .imagenLogoCelular{
+             display: none;
+         }
+         .BotonCompartirArt{
+             margin-left: 20px;
+         }
     }
     @media only screen and (min-width: 768px) and (max-width: 1200px)
     {
@@ -947,7 +983,7 @@ footer ul li a {
             text-align: center;
         }
         .tituloDivisor {
-            margin-left: 350px;
+            margin-left: 40%;
             text-align: center;
             margin-top: 5px;
             margin-bottom: 10px;
@@ -988,6 +1024,18 @@ footer ul li a {
         .ultimosArticulosDos p {
             width: 110%;
         }
+        .tablaContacto {
+            margin-left: 0px;
+        }
+        .imagenContacto {
+            height: 200px;
+            width: 700px;
+            margin: 0px;
+        }
+        .imagenNosotros {
+            width: 550px;
+            height: 550px;
+        }
         footer{
             display: flex;
             padding-top: 1%;
@@ -1015,6 +1063,20 @@ footer ul li a {
         .emailPie {
             margin-top: 2px;
             margin-right: 5px;
+        }
+        .imagenCelular  {
+           display: none;
+        }
+        .imagenLogoCelular{
+            display: none;
+        }
+        .BotonCompartirArt{
+            margin-left: 20px;
+        }
+        .parrafoNosotros {
+            margin-top: 20px;
+            width: 54%;
+            margin-left: 24%;
         }
     }
     
